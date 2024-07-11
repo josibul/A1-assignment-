@@ -128,15 +128,17 @@ padding:12px;
  }
 .zero{
     display: block;
-   padding: 85px 152px 140px 148px;
-   border-color: black;border-radius: ;
-
-
-
+    
+   padding: 20px;
+   border-color: black;
+   border-width: 2px;
+   border-radius:10px ;
+   background-color: #f9f9f9;
+   
 }
 .video{
     display: block;
-
+    padding: 90px 152px 140px 148px;
 
 }
 /*skills*/
@@ -159,14 +161,39 @@ padding:12px;
     border-radius: 16px;
 }
 .s3{
-    background-color: rgba(255, 223,0, 5%s);
+    background-color: rgba(255, 223,0, 5%);
      border-radius: 16px;
+}
+.learn{
+    color: black;
 }
 /*help section*/
 .help-section{
     background-image: url('../assets/handshake.jpg');
+    opacity: 88%;
+    background-position: center;
     text-align:center ;
-    pa
+    padding: 64px 48px 64px 48px;
+    margin: 30px;
+    border-radius: 6px;
+}
+.help-title{
+    color: #f9f9f9;
+    font-size: 32px;
+    font-weight: bold;
+    word-spacing: 5px;
+}
+.help-need{
+    border-radius: 5px;
+    border-color: white;
+    padding: 4px 20px 4px 4px;
+    background-color: #f9f9f9;
+}
+.btn-submit{
+    border-radius: 5px;
+    border-color: white;
+    padding: 4px 4px 4px 4px;
+    background-color: #f9f9f9;
 }
 /*foooter*/
 footer ul {
