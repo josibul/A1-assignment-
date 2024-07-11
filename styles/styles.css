@@ -9,6 +9,9 @@
     color: #0D1321;
 
 }
+.total{
+    margin: 79px 150px 87px 150px;
+}
 /*nav styles*/
 .item1{
     font-size: 28px;
@@ -34,13 +37,13 @@ nav li a{
 }
 /*banner styles*/
 .banner{
-    display:list-item;
-    background-image: url('../assets/Hero-bg.png');
-    background-repeat: none;
-    
-    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../assets/Hero-bg.png')   
 }
 .banner-content{
+
     
     
 }
@@ -58,11 +61,10 @@ font-weight: 900;
 .banner-description{
     font-size: 16px;
     font-weight: 300;
-
 }
 .btn-contact{
-
     position: relative;
+    top: 50%;
     
 }
 /*why web page desgin*/
@@ -75,11 +77,16 @@ font-weight: 900;
     text-align: center;
 }
 .reason{
-    background-color: #ADC8F7;ss
+    background-color: #ADC8F7;
+    margin: 2px;
 }
 .goal{
     display: flex;
     justify-content:space-between;
+    background-color: #FFFFFF;
+    margin: 50px;
+    border-radius: 5px;
+    padding:10px ;
 }
 .goal-theme{
     font-size: 24px;
@@ -91,4 +98,39 @@ font-weight: 900;
 }
 .goal-img{
     width: 260;
+}
+/*video*/
+.zero{
+    display: block;
+    text-align: center;
+}
+.video{
+    display: block;
+
+
+}
+/*skills*/
+.skill-container{
+    display: flex;
+    
+    gap: 24px;
+}
+.skill{
+    padding: 40px;
+    box-shadow: ;
+}
+.s1{
+    background-color: rgba(255,76,30,7%)
+    
+}
+.s2{
+    background-color: rgba(0,76,232, 5%);
+}
+.s3{
+    background-color: rgba(255, 223,0, 5%s);
+}
+/*help section*/
+.help-section{
+    background-image: url('../assets/handshake.jpg');
+    background-position: 100%;
 }
