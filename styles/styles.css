@@ -12,6 +12,11 @@
 .total{
     margin: 79px 150px 87px 150px;
 }
+
+.btn-link{
+    color: white;
+    text-decoration: none;
+}
 /*nav styles*/
 .item1{
     font-size: 28px;
@@ -40,7 +45,12 @@ nav li a{
     display:flex;
     flex-direction: column;
     align-items: center;
-    background-image: url('../assets/Hero-bg.png')   
+    background-image: url('../assets/Hero-bg.png');
+    text-align: center;  
+    margin-top: 131px;
+    height: auto;
+    width: auto;
+    
 }
 .banner-content{
 
@@ -63,8 +73,11 @@ font-weight: 900;
     font-weight: 300;
 }
 .btn-contact{
+    color: #FFFFFF;
     position: relative;
     top: 50%;
+    background-color: #0D1321;
+    border-radius: 8px;
     
 }
 /*why web page desgin*/
@@ -77,14 +90,22 @@ font-weight: 900;
     text-align: center;
 }
 .reason{
-    background-color: #ADC8F7;
-    margin: 2px;
+    background-color: rgba(13,19,33, 10%);
+        margin: 10px;
+    padding: 80px 97px 80px 97px;
+    
+}
+.father-why{
+background-color: #FFFFFF;
+margin:0px;
+padding:12px;
+    border-radius: 5px;  
 }
 .goal{
     display: flex;
     justify-content:space-between;
     background-color: #FFFFFF;
-    margin: 50px;
+    margin: 0px;
     border-radius: 5px;
     padding:10px ;
 }
@@ -100,9 +121,18 @@ font-weight: 900;
     width: 260;
 }
 /*video*/
+ .my-ins{
+     font-size: 32px ;
+     font-weight: bolder;
+     color: #0D1321;
+ }
 .zero{
     display: block;
-    text-align: center;
+   padding: 85px 152px 140px 148px;
+   border-color: black;border-radius: ;
+
+
+
 }
 .video{
     display: block;
@@ -120,17 +150,30 @@ font-weight: 900;
     box-shadow: ;
 }
 .s1{
-    background-color: rgba(255,76,30,7%)
+    background-color: rgba(255,76,30,7%);
+    border-radius: 16px;
     
 }
 .s2{
     background-color: rgba(0,76,232, 5%);
+    border-radius: 16px;
 }
 .s3{
     background-color: rgba(255, 223,0, 5%s);
+     border-radius: 16px;
 }
 /*help section*/
 .help-section{
     background-image: url('../assets/handshake.jpg');
-    background-position: 100%;
+    text-align:center ;
+    pa
+}
+/*foooter*/
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    
+}
+footer ul li{
+    list-style: none;
 }
